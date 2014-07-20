@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22177163197B948B0056EB1E /* halftone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22177162197B948B0056EB1E /* halftone@2x.png */; };
+		22177168197B95830056EB1E /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22177164197B95830056EB1E /* cancel@2x.png */; };
+		22177169197B95830056EB1E /* cancelSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22177165197B95830056EB1E /* cancelSelected@2x.png */; };
+		2217716A197B95830056EB1E /* sendSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22177166197B95830056EB1E /* sendSelected@2x.png */; };
+		2217716B197B95830056EB1E /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22177167197B95830056EB1E /* send@2x.png */; };
+		2217716D197B969A0056EB1E /* center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2217716C197B969A0056EB1E /* center@2x.png */; };
+		2217716F197B9A690056EB1E /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2217716E197B9A690056EB1E /* camera@2x.png */; };
+		228176B019777E9E00BF0BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228176AF19777E9E00BF0BFA /* main.m */; };
+		228176B319777E9E00BF0BFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228176B219777E9E00BF0BFA /* AppDelegate.m */; };
+		228176B619777E9E00BF0BFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228176B519777E9E00BF0BFA /* ViewController.m */; };
+		228176B919777E9E00BF0BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228176B719777E9E00BF0BFA /* Main.storyboard */; };
+		228176BB19777E9E00BF0BFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228176BA19777E9E00BF0BFA /* Images.xcassets */; };
+		228176C719777E9E00BF0BFA /* KSMManyOptionsButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 228176C619777E9E00BF0BFA /* KSMManyOptionsButtonTests.m */; };
+		22D268DF197B8F5D0057042D /* KSMManyOptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D268DE197B8F5D0057042D /* KSMManyOptionsButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		228176C119777E9E00BF0BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228176A219777E9E00BF0BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228176A919777E9E00BF0BFA;
+			remoteInfo = KSMManyOptionsButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22177162197B948B0056EB1E /* halftone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "halftone@2x.png"; sourceTree = "<group>"; };
+		22177164197B95830056EB1E /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		22177165197B95830056EB1E /* cancelSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelSelected@2x.png"; sourceTree = "<group>"; };
+		22177166197B95830056EB1E /* sendSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sendSelected@2x.png"; sourceTree = "<group>"; };
+		22177167197B95830056EB1E /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
+		2217716C197B969A0056EB1E /* center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "center@2x.png"; sourceTree = "<group>"; };
+		2217716E197B9A690056EB1E /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		228176AA19777E9E00BF0BFA /* KSMManyOptionsButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSMManyOptionsButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228176AE19777E9E00BF0BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228176AF19777E9E00BF0BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		228176B119777E9E00BF0BFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		228176B219777E9E00BF0BFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		228176B419777E9E00BF0BFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		228176B519777E9E00BF0BFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		228176B819777E9E00BF0BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		228176BA19777E9E00BF0BFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		228176C019777E9E00BF0BFA /* KSMManyOptionsButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSMManyOptionsButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		228176C519777E9E00BF0BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228176C619777E9E00BF0BFA /* KSMManyOptionsButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSMManyOptionsButtonTests.m; sourceTree = "<group>"; };
+		22D268DD197B8F5D0057042D /* KSMManyOptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMManyOptionsButton.h; sourceTree = "<group>"; };
+		22D268DE197B8F5D0057042D /* KSMManyOptionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMManyOptionsButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228176A719777E9E00BF0BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228176BD19777E9E00BF0BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228176A119777E9E00BF0BFA = {
+			isa = PBXGroup;
+			children = (
+				228176AC19777E9E00BF0BFA /* KSMManyOptionsButton */,
+				228176C319777E9E00BF0BFA /* KSMManyOptionsButtonTests */,
+				228176AB19777E9E00BF0BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228176AB19777E9E00BF0BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228176AA19777E9E00BF0BFA /* KSMManyOptionsButton.app */,
+				228176C019777E9E00BF0BFA /* KSMManyOptionsButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228176AC19777E9E00BF0BFA /* KSMManyOptionsButton */ = {
+			isa = PBXGroup;
+			children = (
+				228176B119777E9E00BF0BFA /* AppDelegate.h */,
+				228176B219777E9E00BF0BFA /* AppDelegate.m */,
+				228176B419777E9E00BF0BFA /* ViewController.h */,
+				228176B519777E9E00BF0BFA /* ViewController.m */,
+				228176B719777E9E00BF0BFA /* Main.storyboard */,
+				228176D319777EDA00BF0BFA /* KSMManyOptionsButton */,
+				228176BA19777E9E00BF0BFA /* Images.xcassets */,
+				22177162197B948B0056EB1E /* halftone@2x.png */,
+				22177164197B95830056EB1E /* cancel@2x.png */,
+				22177165197B95830056EB1E /* cancelSelected@2x.png */,
+				22177166197B95830056EB1E /* sendSelected@2x.png */,
+				22177167197B95830056EB1E /* send@2x.png */,
+				2217716C197B969A0056EB1E /* center@2x.png */,
+				2217716E197B9A690056EB1E /* camera@2x.png */,
+				228176AD19777E9E00BF0BFA /* Supporting Files */,
+			);
+			path = KSMManyOptionsButton;
+			sourceTree = "<group>";
+		};
+		228176AD19777E9E00BF0BFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				228176AE19777E9E00BF0BFA /* Info.plist */,
+				228176AF19777E9E00BF0BFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		228176C319777E9E00BF0BFA /* KSMManyOptionsButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				228176C619777E9E00BF0BFA /* KSMManyOptionsButtonTests.m */,
+				228176C419777E9E00BF0BFA /* Supporting Files */,
+			);
+			path = KSMManyOptionsButtonTests;
+			sourceTree = "<group>";
+		};
+		228176C419777E9E00BF0BFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				228176C519777E9E00BF0BFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		228176D319777EDA00BF0BFA /* KSMManyOptionsButton */ = {
+			isa = PBXGroup;
+			children = (
+				22D268DD197B8F5D0057042D /* KSMManyOptionsButton.h */,
+				22D268DE197B8F5D0057042D /* KSMManyOptionsButton.m */,
+			);
+			name = KSMManyOptionsButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228176A919777E9E00BF0BFA /* KSMManyOptionsButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228176CA19777E9E00BF0BFA /* Build configuration list for PBXNativeTarget "KSMManyOptionsButton" */;
+			buildPhases = (
+				228176A619777E9E00BF0BFA /* Sources */,
+				228176A719777E9E00BF0BFA /* Frameworks */,
+				228176A819777E9E00BF0BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSMManyOptionsButton;
+			productName = KSMManyOptionsButton;
+			productReference = 228176AA19777E9E00BF0BFA /* KSMManyOptionsButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		228176BF19777E9E00BF0BFA /* KSMManyOptionsButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228176CD19777E9E00BF0BFA /* Build configuration list for PBXNativeTarget "KSMManyOptionsButtonTests" */;
+			buildPhases = (
+				228176BC19777E9E00BF0BFA /* Sources */,
+				228176BD19777E9E00BF0BFA /* Frameworks */,
+				228176BE19777E9E00BF0BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228176C219777E9E00BF0BFA /* PBXTargetDependency */,
+			);
+			name = KSMManyOptionsButtonTests;
+			productName = KSMManyOptionsButtonTests;
+			productReference = 228176C019777E9E00BF0BFA /* KSMManyOptionsButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228176A219777E9E00BF0BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Chaiwalla;
+				TargetAttributes = {
+					228176A919777E9E00BF0BFA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					228176BF19777E9E00BF0BFA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 228176A919777E9E00BF0BFA;
+					};
+				};
+			};
+			buildConfigurationList = 228176A519777E9E00BF0BFA /* Build configuration list for PBXProject "KSMManyOptionsButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228176A119777E9E00BF0BFA;
+			productRefGroup = 228176AB19777E9E00BF0BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228176A919777E9E00BF0BFA /* KSMManyOptionsButton */,
+				228176BF19777E9E00BF0BFA /* KSMManyOptionsButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228176A819777E9E00BF0BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22177168197B95830056EB1E /* cancel@2x.png in Resources */,
+				22177169197B95830056EB1E /* cancelSelected@2x.png in Resources */,
+				22177163197B948B0056EB1E /* halftone@2x.png in Resources */,
+				228176B919777E9E00BF0BFA /* Main.storyboard in Resources */,
+				2217716F197B9A690056EB1E /* camera@2x.png in Resources */,
+				2217716D197B969A0056EB1E /* center@2x.png in Resources */,
+				2217716A197B95830056EB1E /* sendSelected@2x.png in Resources */,
+				228176BB19777E9E00BF0BFA /* Images.xcassets in Resources */,
+				2217716B197B95830056EB1E /* send@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228176BE19777E9E00BF0BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228176A619777E9E00BF0BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228176B619777E9E00BF0BFA /* ViewController.m in Sources */,
+				22D268DF197B8F5D0057042D /* KSMManyOptionsButton.m in Sources */,
+				228176B319777E9E00BF0BFA /* AppDelegate.m in Sources */,
+				228176B019777E9E00BF0BFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228176BC19777E9E00BF0BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228176C719777E9E00BF0BFA /* KSMManyOptionsButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		228176C219777E9E00BF0BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228176A919777E9E00BF0BFA /* KSMManyOptionsButton */;
+			targetProxy = 228176C119777E9E00BF0BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		228176B719777E9E00BF0BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228176B819777E9E00BF0BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228176C819777E9E00BF0BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		228176C919777E9E00BF0BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228176CB19777E9E00BF0BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KSMManyOptionsButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		228176CC19777E9E00BF0BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KSMManyOptionsButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		228176CE19777E9E00BF0BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSMManyOptionsButton.app/KSMManyOptionsButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSMManyOptionsButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		228176CF19777E9E00BF0BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSMManyOptionsButton.app/KSMManyOptionsButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSMManyOptionsButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228176A519777E9E00BF0BFA /* Build configuration list for PBXProject "KSMManyOptionsButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228176C819777E9E00BF0BFA /* Debug */,
+				228176C919777E9E00BF0BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228176CA19777E9E00BF0BFA /* Build configuration list for PBXNativeTarget "KSMManyOptionsButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228176CB19777E9E00BF0BFA /* Debug */,
+				228176CC19777E9E00BF0BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228176CD19777E9E00BF0BFA /* Build configuration list for PBXNativeTarget "KSMManyOptionsButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228176CE19777E9E00BF0BFA /* Debug */,
+				228176CF19777E9E00BF0BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228176A219777E9E00BF0BFA /* Project object */;
+}
